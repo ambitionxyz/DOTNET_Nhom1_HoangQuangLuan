@@ -13,7 +13,7 @@ namespace appquanlydanhba.Services
         public static List<SinhVienViewModel> GetLists()
         {
             var db = new AppDBContext();
-            var ls = db.SinhVien.Select(e => new SinhVienViewModel
+            var ls = db.SinhViens.Select(e => new SinhVienViewModel
             {
                 MaSinhVien = e.MaSinhVien,
                 TenSinhVien = e.TenSinhVien,
@@ -27,7 +27,7 @@ namespace appquanlydanhba.Services
         public static List<SinhVienViewModel> GetList(int ID)
         {
             var db = new AppDBContext();
-            var rs = db.SinhVien.Where(e => e.ID == ID)
+            var rs = db.SinhViens.Where(e => e.ID == ID)
                 .Select(e => new SinhVienViewModel
                 {
                     MaSinhVien = e.MaSinhVien,
@@ -43,14 +43,14 @@ namespace appquanlydanhba.Services
         public static KetQua AddSinhVien(SinhVien sv)
         {
             var db = new AppDBContext();
-            int count = db.SinhVien.Where(e => e.MaSinhVien == sv.MaSinhVien).Count();
+            int count = db.SinhViens.Where(e => e.MaSinhVien == sv.MaSinhVien).Count();
             if (count > 0)
             {
                 return KetQua.TrungMa;
             }
             else
             {
-                db.SinhVien.Add(sv);
+                db.SinhViens.Add(sv);
                 db.SaveChanges();
                 return KetQua.ThanhCong;
             }
@@ -59,8 +59,8 @@ namespace appquanlydanhba.Services
         public static KetQua removeSinhVien(SinhVienViewModel sv)
         {
             var db = new AppDBContext();
-            var sinhViens = db.SinhVien.Where(e => e.ID == sv.ID).FirstOrDefault();
-            db.SinhVien.Remove(sinhViens);
+            var sinhViens = db.SinhViens.Where(e => e.ID == sv.ID).FirstOrDefault();
+            db.SinhViens.Remove(sinhViens);
             db.SaveChanges();
             return KetQua.ThanhCong;
         }

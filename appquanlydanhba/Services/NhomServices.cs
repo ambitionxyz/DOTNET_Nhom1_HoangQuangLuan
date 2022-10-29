@@ -13,7 +13,7 @@ namespace appquanlydanhba.Services
         public static List<NhomViewModel> GetLists()
         {
             var db = new AppDBContext();
-            var ls = db.nhom.Select(e => new NhomViewModel
+            var ls = db.nhoms.Select(e => new NhomViewModel
             {
                 ID = e.ID,
                 TenNhom = e.TenNhom
@@ -23,14 +23,14 @@ namespace appquanlydanhba.Services
         public static Ketqua AddNhom(nhom lh)
         {
             var db = new AppDBContext();
-            int count = db.nhom.Where(e => e.ID == lh.ID).Count();
+            int count = db.nhoms.Where(e => e.ID == lh.ID).Count();
             if (count > 0)
             {
                 return Ketqua.TrungMa;
             }
             else
             {
-                db.nhom.Add(lh);
+                db.nhoms.Add(lh);
                 db.SaveChanges();
                 return Ketqua.ThanhCong;
             }
@@ -40,8 +40,8 @@ namespace appquanlydanhba.Services
         public static KetQua removeNhom(NhomViewModel lh)
         {
             var db = new AppDBContext();
-            var nhoms = db.nhom.Where(e => e.ID == lh.ID).FirstOrDefault();
-            db.nhom.Remove(nhoms);
+            var nhoms = db.nhoms.Where(e => e.ID == lh.ID).FirstOrDefault();
+            db.nhoms.Remove(nhoms);
             db.SaveChanges();
             return KetQua.ThanhCong;
         }

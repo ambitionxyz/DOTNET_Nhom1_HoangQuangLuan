@@ -12,7 +12,7 @@ namespace appquanlydanhba.Model
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public nhom()
         {
-            SinhVien = new HashSet<SinhVien>();
+            SinhViens = new HashSet<SinhVien>();
         }
 
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
@@ -22,6 +22,6 @@ namespace appquanlydanhba.Model
         public string TenNhom { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<SinhVien> SinhVien { get; set; }
+        public virtual ICollection<SinhVien> SinhViens { get; set; }
     }
 }
