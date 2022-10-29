@@ -1,0 +1,17 @@
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\bin\Debug\appquanlydanhba.exe.config
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\bin\Debug\appquanlydanhba.exe
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\bin\Debug\appquanlydanhba.pdb
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\bin\Debug\EntityFramework.dll
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\bin\Debug\EntityFramework.SqlServer.dll
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\bin\Debug\EntityFramework.xml
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\bin\Debug\EntityFramework.SqlServer.xml
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\obj\Debug\appquanlydanhba.csprojAssemblyReference.cache
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\obj\Debug\appquanlydanhba.Form1.resources
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\obj\Debug\appquanlydanhba.Frmnhom.resources
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\obj\Debug\appquanlydanhba.Properties.Resources.resources
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\obj\Debug\appquanlydanhba.csproj.GenerateResource.cache
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\obj\Debug\appquanlydanhba.csproj.CoreCompileInputs.cache
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\obj\Debug\appquanlydanhba.csproj.CopyComplete
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\obj\Debug\appquanlydanhba.exe
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\obj\Debug\appquanlydanhba.pdb
+E:\hoctruong\nam4\ky1\.net\baitap\appquanlydanhba\appquanlydanhba\obj\Debug\appquanlydanhba.FrmSinhVien.resources
